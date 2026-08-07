@@ -5,7 +5,7 @@ import colorama
 import datetime as date
 import pathlib
 
-import config as cfg
+import config as cfgsrc/outputs
 import ietcs as ie
 import iecfg as iecfg
 
