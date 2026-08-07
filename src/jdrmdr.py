@@ -6,9 +6,9 @@ import colorama as color
 import xlsxwriter as xls
 import warnings
 
-import config as cfg
-import jdrmdrcfg as jdrmdrcfg
-import ss027
+import src.config as cfg
+import src.jdrmdrcfg as jdrmdrcfg
+import src.ss027 as ss027
 
 # Version control
 # Author: Manuel Cáceres Marzal

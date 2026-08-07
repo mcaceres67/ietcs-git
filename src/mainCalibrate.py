@@ -6,9 +6,9 @@ import colorama
 import datetime as date
 import pathlib
 
-import config as cfg
-import iecfg as iecfg
-import ietcs as ie
+import src.config as cfg
+import src.iecfg as iecfg
+import src.ietcs as ie
 
 
 startTotalTime = date.datetime.now()
