@@ -9,7 +9,6 @@ import config as cfg
 import ietcs as ie
 import iecfg as iecfg
 
-
 global glversion
 
 startTotalTime = date.datetime.now()
