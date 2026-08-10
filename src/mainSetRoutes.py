@@ -11,6 +11,7 @@ import iecfg as iecfg
 
 global glversion
 
+
 startTotalTime = date.datetime.now()
 numberofProcessedRegisters = 0
 # ----------------------   CONFIG BLOCK - STARTS ----------------------------------------------------
