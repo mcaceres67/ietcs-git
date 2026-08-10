@@ -16,6 +16,7 @@ startTotalTime = date.datetime.now()
 numberofProcessedRegisters = 0
 # ----------------------   CONFIG BLOCK - STARTS ----------------------------------------------------
 
+
 # Filter for packets to compile
 
 listRbcFilter = cfg.listRbcFilter
