@@ -7,9 +7,9 @@ import datetime as date
 import pathlib
 import colorama as color
 
-import src.config as cfg
-import src.jdrmdrcfg as jdrmdrcfg
-import src.jdrmdr as jdrmdr
+import config as cfg
+import jdrmdrcfg
+import jdrmdr
 
 
 

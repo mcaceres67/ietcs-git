@@ -6,8 +6,8 @@ import colorama as color
 import xlsxwriter as xls
 import warnings
 
-import src.config as cfg
-import src.hascfg as hascfg
+import config as cfg
+import hascfg as hascfg
 
 # Version control
 # Author: Manuel Cáceres Marzal

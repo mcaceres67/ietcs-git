@@ -11,11 +11,9 @@ import iecfg as iecfg
 
 global glversion
 
-
 startTotalTime = date.datetime.now()
 numberofProcessedRegisters = 0
 # ----------------------   CONFIG BLOCK - STARTS ----------------------------------------------------
-
 
 # Filter for packets to compile
 
@@ -33,10 +31,10 @@ boolPhase2 = True   # To jump phase 3 (splitting routes and preparing charts)
 
 
 # Variables for multiple files processing
-boolMultipleFile = True    # To indicate if process multiple files in directory or a single file
+boolMultipleFile = False    # To indicate if process multiple files in directory or a single file
 # When boolMultipleFile False; the file to compile
 #inputSinglefile = 'JruC_ESC S-103 CoMa 22-24 jun 2024 C1 (5).xlsx'
-inputSinglefile = 'JruC_JDRMDR Export 2026-06-16 12h 08m 42s-calibration.xlsx'
+inputSinglefile = 'JruC_JDRMDR Export 2026-06-16 12h 08m 42s.xlsx'
 
 # Input and Output paths
 
@@ -56,7 +54,7 @@ fileStatistics = 'StatisticsFile.xlsx'
 # distAntenna = 1.0 # Israel  Nominal
 # distAntenna = 19.0 # Israel  Reverse
 #
-#cdistAntenna = 6.73 # 673 cm según info de CEDEX # 5.17808485579857 # 5.97298442991297 # 5.97554642364505  # CoMa C1
+# distAntenna = 6.73 # 673 cm según info de CEDEX # 5.17808485579857 # 5.97298442991297 # 5.97554642364505  # CoMa C1
 # calOdoSlope = 1.00 - 0.999452402168725 # Use the value calculated during calibration
 
 # distAntenna = 2.31822980987364 # 2.45178132582484 # CoMa C8

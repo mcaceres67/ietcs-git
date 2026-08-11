@@ -6,9 +6,9 @@ import colorama
 import datetime as date
 import pathlib
 
-import src.config as cfg
-import src.iecfg as iecfg
-import src.ietcs as ie
+import config as cfg
+import iecfg as iecfg
+import ietcs as ie
 
 
 startTotalTime = date.datetime.now()
@@ -33,7 +33,6 @@ calibrationPath = iecfg.calibrationPath
 # CALIBRATION
 nCalibrationIteractions = iecfg.nCalibrationIteractions
 nameCalibrationFile = iecfg.nameCalibrationFile
-calOdoSlope = np.nan
 
 # ----------------------   CONFIG BLOCK - ENDS ----------------------------------------------------
 
@@ -189,7 +188,7 @@ for numseq in range(len(listInputFiles)):
             dfMissionsSummary = dfArrOutput[0]
             dfRoutes = dfArrOutput[1]
 
-            dfStatistics = ie.JruC_Statistics(dfMissionsSummary, dfRoutes, calOdoSlope)
+            dfStatistics = ie.JruC_Statistics(dfMissionsSummary, dfRoutes)
             
             if(len(dfStatistics.axes[0]) == 0):
                 print('No valid data in mission')

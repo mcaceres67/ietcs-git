@@ -6,9 +6,9 @@ import colorama
 import datetime as date
 import pathlib
 
-import src.config as cfg
-import src.hascfg as hascfg
-import src.hasler as has
+import config as cfg
+import hascfg as hascfg
+import hasler as has
 
 
 

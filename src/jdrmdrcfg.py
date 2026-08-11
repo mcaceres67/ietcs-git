@@ -1,4 +1,4 @@
-import src.config as cfg
+import config as cfg
 import numpy as np
 import pathlib
 
@@ -50,10 +50,10 @@ mod_path = pathlib.Path(__file__).parent
 #outputPath = '../outputs/L-G/20260419-20'
 #inputPath = '../inputs/L-G/20260531-0601/IERTMS'
 #outputPath = '../outputs/L-G/20260531-0601'
-#inputPath = '../inputs/L-G/20260602-03/IERTMS'
-#outputPath = '../outputs/L-G/20260602-03'
-inputPath = '../inputs/L-G LIF/20260701/IERTMS'
-outputPath = '../outputs/L-G LIF/20260701'
+inputPath = '../inputs/L-G/20260602-03/IERTMS'
+outputPath = '../outputs/L-G/20260602-03'
+#inputPath = '../inputs/L-G LIF/20260701/IERTMS'
+#outputPath = '../outputs/L-G LIF/20260701'
 inputPath = (mod_path / inputPath).resolve()
 outputPath = (mod_path / outputPath).resolve()
 
