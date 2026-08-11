@@ -56,13 +56,13 @@ fileStatistics = 'StatisticsFile.xlsx'
 # distAntenna = 1.0 # Israel  Nominal
 # distAntenna = 19.0 # Israel  Reverse
 #
-distAntenna = 6.73 # 673 cm según info de CEDEX # 5.17808485579857 # 5.97298442991297 # 5.97554642364505  # CoMa C1
+#cdistAntenna = 6.73 # 673 cm según info de CEDEX # 5.17808485579857 # 5.97298442991297 # 5.97554642364505  # CoMa C1
 # calOdoSlope = 1.00 - 0.999452402168725 # Use the value calculated during calibration
 
 # distAntenna = 2.31822980987364 # 2.45178132582484 # CoMa C8
 # distAntenna = 9.24 # 9.2877572294039 # S112 Isla Murcia
 
-#distAntenna = 2.00 # 1.23 # 2.00 # León Guardo
+distAntenna = 2.00 # 1.23 # 2.00 # León Guardo
 
 fileAntennaDistances = '' # To be implemented. Use a file with different antenna distances
 
