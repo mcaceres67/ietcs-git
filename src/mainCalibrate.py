@@ -21,7 +21,7 @@ listJruFilter =  cfg.listJruFilter
 listJruDiscard = cfg.listJruDiscard
 
 # Variables for multiple files processing
-boolMultipleFile = False    # To indicate if process multiple files in directory or a single file
+boolMultipleFile = True    # To indicate if process multiple files in directory or a single file
 # When boolMultipleFile False; the file to compile
 inputSinglefile = 'JruC_JDRMDR Export 2026-06-16 12h 08m 42s-calibration.xlsx'
 
